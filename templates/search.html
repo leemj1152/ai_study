@@ -5,21 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Data Scrapper</title>
   </head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+  />
   <body>
-    <h1>Search Results for "{{episodeNumber}}"</h1>
-    {% for game in data %}
-    <div>
-      <span>{{game.event}}</span>
-      <span>{{game.homeTeam}}</span>
-      <span>{{game.standardPoint}}</span>
-      <span>{{game.awayTeam}}</span>
-      <span>{{game.gameType}}</span>
-      <span>{{game.winDistribute}}</span>
-      <span>{{game.drawDistribute}}</span>
-      <span>{{game.loseDistribute}}</span>
-      <span>{{game.finalScore}}</span>
-      <span>{{game.gameResult}}</span>
-    </div>
-    {% endfor %}
+    <main class="container">
+      <hgroup>
+        <h1>경기 결과 "{{episodeNumber}}"</h1>
+        <a target="_blank" href="/export?episodeNumber={{episodeNumber}}"
+          >엑셀 다운로드</a
+        >
+      </hgroup>
+      <table role="grid">
+        <thead>
+          <tr>
+            <th>종목</th>
+            <th>홈팀</th>
+            <th>기준점</th>
+            <th>원정팀</th>
+            <th>핸디캡 / 언더오버</th>
+            <th>승</th>
+            <th>무</th>
+            <th>패</th>
+            <th>최종 스코어</th>
+            <th>결과</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for game in data %}
+          <tr>
+            <td>{{game.event}}</td>
+            <td>{{game.homeTeam}}</td>
+            <td>{{game.standardPoint}}</td>
+            <td>{{game.awayTeam}}</td>
+            <td>{{game.gameType}}</td>
+            <td>{{game.winDistribute}}</td>
+            <td>{{game.drawDistribute}}</td>
+            <td>{{game.loseDistribute}}</td>
+            <td>{{game.finalScore}}</td>
+            <td>{{game.gameResult}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </main>
   </body>
 </html>

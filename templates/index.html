@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Data Scrapper</title>
   </head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+  />
   <body>
-    <h1>Data Scrapper</h1>
-    <h4>What data do you want?</h4>
-    <form action="/search">
-      <input
-        type="text"
-        name="episodeNumber"
-        placeholder="Write episodeNumber please"
-      />
-      <button>Search</button>
-    </form>
+    <main class="container">
+      <h1>Data Scrapper</h1>
+      <h4>What data do you want?</h4>
+      <form action="/search">
+        <input
+          type="text"
+          name="episodeNumber"
+          placeholder="원하는 회차를 입력해주세요 ex 23년 1회차 = 230001"
+        />
+        <button>Search</button>
+      </form>
+    </main>
   </body>
 </html>
