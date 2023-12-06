@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, send_file
-
 from saveFile import save_to_bat_data
 from dataScrapper import extract_bet_datas
+from database import database
 
 app = Flask("DataScrapper")
 
@@ -23,7 +23,15 @@ def search():
     else:
         data = extract_bet_datas(episodeNumber)
         db[episodeNumber] = data
-    return render_template("search.html", data=data, episodeNumber=episodeNumber)
+    years = episodeNumber[0:2]
+    episode = episodeNumber[-4:]
+    return render_template(
+        "search.html",
+        data=data,
+        episodeNumber=episodeNumber,
+        years=years,
+        episode=episode,
+    )
 
 
 @app.route("/export")
@@ -35,6 +43,15 @@ def export():
         return redirect(f"/search?episodeNumber={episodeNumber}")
     save_to_bat_data(episodeNumber)
     return send_file(f"{episodeNumber}data.csv", as_attachment=True)
+
+
+@app.route("/statistics")
+def statistics():
+    condition = request.args.get("condition")
+    # if condition == None:
+    #     return redirect("/statistics")
+    database()
+    return render_template("statistics.html")
 
 
 app.run("localhost", debug=True)

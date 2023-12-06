@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data Scrapper</title>
+    <title>스포츠 결과 분석</title>
   </head>
   <link
     rel="stylesheet"
@@ -11,8 +11,17 @@
   />
   <body>
     <main class="container">
+      <nav>
+        <ul>
+          <li><strong>Brand</strong></li>
+        </ul>
+        <ul>
+          <li><a href="/">회차결과검색</a></li>
+          <li><a href="/statistics">팀 / 배당검색</a></li>
+        </ul>
+      </nav>
       <hgroup>
-        <h1>경기 결과 "{{episodeNumber}}"</h1>
+        <h1>{{years}}년 {{episode}}회차 경기 결과</h1>
         <a target="_blank" href="/export?episodeNumber={{episodeNumber}}"
           >엑셀 다운로드</a
         >

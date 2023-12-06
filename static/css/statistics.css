@@ -1,0 +1,7 @@
+.condition_box {
+  display: none;
+}
+
+.condition_box.active {
+  display: block;
+}

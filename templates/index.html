@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data Scrapper</title>
+    <title>스포츠 결과 분석</title>
   </head>
   <link
     rel="stylesheet"
@@ -11,13 +11,22 @@
   />
   <body>
     <main class="container">
-      <h1>Data Scrapper</h1>
-      <h4>What data do you want?</h4>
+      <nav>
+        <ul>
+          <li><strong>Brand</strong></li>
+        </ul>
+        <ul>
+          <li><a href="/">회차결과검색</a></li>
+          <li><a href="/statistics">팀 / 배당검색</a></li>
+        </ul>
+      </nav>
+      <h1>스포츠 결과</h1>
+      <h4>원하는 회차를 입력해주세요</h4>
       <form action="/search">
         <input
           type="text"
           name="episodeNumber"
-          placeholder="원하는 회차를 입력해주세요 ex 23년 1회차 = 230001"
+          placeholder="ex 23년 1회차 = 230001"
         />
         <button>Search</button>
       </form>

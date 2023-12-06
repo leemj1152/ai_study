@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>스포츠 결과 분석</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href=" {{ url_for('static', filename='css/statistics.css') }}"
+  />
+  <script src="{{ url_for('static', filename='js/jquery-3.5.1.min.js') }}"></script>
+  <body>
+    <main class="container">
+      <nav>
+        <ul>
+          <li><strong>Brand</strong></li>
+        </ul>
+        <ul>
+          <li><a href="/">회차결과검색</a></li>
+          <li><a href="/statistics">팀 / 배당검색</a></li>
+        </ul>
+      </nav>
+      <h1>통계 검색</h1>
+      <h4>검색할 조건을 입력하세요</h4>
+      <form action="/statistics">
+        <label for="search_condition">검색조건</label>
+        <select id="search_condition" required onchange="changeValue()">
+          <option value="team" selected>팀</option>
+          <option value="distribute">배당</option>
+        </select>
+        <div class="team_search_box condition_box active">
+          <input type="text" name="team" placeholder="검색" />
+        </div>
+        <div class="distribute_search_box condition_box">
+          <label for="win"></label>
+          <input type="text" name="win" id="win" placeholder="승" />
+          <label for="draw"></label>
+          <input type="text" name="draw" id="draw" placeholder="무승부" />
+          <label for="lose"></label>
+          <input type="text" name="lose" id="lose" placeholder="패배" />
+        </div>
+        <button>검색</button>
+      </form>
+    </main>
+  </body>
+  <script src="{{ url_for('static', filename='js/statistics_search.js') }}"></script>
+</html>
