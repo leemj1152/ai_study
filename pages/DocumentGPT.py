@@ -1,6 +1,6 @@
 from typing import Any
 import streamlit as st
-from langchain.prompts import ChatPromptTemplate
+from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.storage import LocalFileStore
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.document_loaders import UnstructuredFileLoader
@@ -9,9 +9,14 @@ from langchain.vectorstores import FAISS
 from langchain.schema.runnable import RunnablePassthrough, RunnableLambda
 from langchain.chat_models import ChatOpenAI
 from langchain.callbacks.base import BaseCallbackHandler
+from langchain.memory import ConversationBufferWindowMemory
 import time
 
 st.set_page_config(page_title="DocumentGPT", page_icon="📃")
+
+memory = ConversationBufferWindowMemory(
+    return_messages=True, k=6, memory_key="chat_history"
+)
 
 
 class ChatCallbackHandler(BaseCallbackHandler):
@@ -61,6 +66,14 @@ def embed_file(file):
     return retriever
 
 
+def add_memory_message(input, output):
+    memory.save_context({"input": input}, {"output": output})
+
+
+def load_memory(_):
+    return memory.load_memory_variables({})["chat_history"]
+
+
 def save_message(message, role):
     st.session_state["messages"].append({"message": message, "role": role})
 
@@ -92,6 +105,7 @@ prompt = ChatPromptTemplate.from_messages(
             context: {context}
             """,
         ),
+        MessagesPlaceholder(variable_name="chat_history"),
         ("human", "{question}"),
     ]
 )
@@ -125,11 +139,13 @@ if file:
                 "context": retriever | RunnableLambda(format_docs),
                 "question": RunnablePassthrough(),
             }
+            | RunnablePassthrough.assign(chat_history=load_memory)
             | prompt
             | llm
         )
         with st.chat_message("ai"):
-            chain.invoke(message)
+            response = chain.invoke(message)
+            add_memory_message(message, response.content)
 
 else:
     st.session_state["messages"] = []
