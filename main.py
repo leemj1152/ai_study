@@ -50,7 +50,7 @@ def statistics():
     condition = request.args.get("condition")
     # if condition == None:
     #     return redirect("/statistics")
-    database()
+    # database()
     return render_template("statistics.html")
 
 

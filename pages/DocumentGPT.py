@@ -57,7 +57,6 @@ def embed_file(file):
         separator="\t",
     )
     loader = UnstructuredFileLoader(f"{file_path}")
-    # data = test_csv.load_and_split(text_splitter=splitter)
     docs = loader.load_and_split(text_splitter=splitter)
     embeddings = OpenAIEmbeddings()
     cached_embeddings = CacheBackedEmbeddings.from_bytes_store(embeddings, cache_dir)
@@ -124,7 +123,7 @@ Upload your files on the sidebar.
 
 with st.sidebar:
     file = st.file_uploader(
-        "Upload a .txt .pdf .docx .xlsx file", type=["pdf", "txt", "docx", "xlsx"]
+        "Upload a .txt .pdf .docx file", type=["pdf", "txt", "docx"]
     )
 
 if file:
