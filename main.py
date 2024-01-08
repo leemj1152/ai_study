@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, redirect, send_file
-from saveFile import save_to_bat_data
+from saveFile import save_to_bat_data_csv, save_to_bat_data_json
 from dataScrapper import extract_bet_datas
-from database import database
 
 app = Flask("DataScrapper")
 
@@ -41,8 +40,8 @@ def export():
         return redirect("/")
     if episodeNumber not in db:
         return redirect(f"/search?episodeNumber={episodeNumber}")
-    save_to_bat_data(episodeNumber)
-    return send_file(f"{episodeNumber}data.csv", as_attachment=True)
+    save_to_bat_data_json(episodeNumber)
+    return send_file(f"{episodeNumber}.json", as_attachment=True)
 
 
 @app.route("/statistics")

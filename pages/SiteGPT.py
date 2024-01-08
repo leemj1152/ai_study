@@ -10,10 +10,11 @@ from langchain.vectorstores.faiss import FAISS
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.schema.runnable import RunnablePassthrough, RunnableLambda
 from langchain.chat_models import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
+from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.document_transformers import Html2TextTransformer
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.callbacks.base import BaseCallbackHandler
+from langchain.schema import Document
 
 if "win32" in sys.platform:
     # Windows specific event-loop policy & cmd
@@ -42,7 +43,12 @@ class ChatCallbackHandler(BaseCallbackHandler):
         self.message_box.markdown(self.message)
 
 
-llm = ChatOpenAI(
+answers_llm = ChatOpenAI(
+    temperature=0.1,
+    model="gpt-3.5-turbo-1106",
+)
+
+choose_llm = ChatOpenAI(
     temperature=0.1,
     streaming=True,
     callbacks=[
@@ -57,6 +63,31 @@ memory = ConversationBufferWindowMemory(
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
+
+
+def find_history(query):
+    histories = load_memory("")
+    temp = []
+    for idx in range(len(histories) // 2):
+        temp.append(
+            {
+                "input": histories[idx * 2].content,
+                "output": histories[idx * 2 + 1].content,
+            }
+        )
+
+    docs = [
+        Document(page_content=f"input:{item['input']}\noutput:{item['output']}")
+        for item in temp
+    ]
+    try:
+        vector_store = FAISS.from_documents(docs, OpenAIEmbeddings())
+        found_docs = vector_store.similarity_search(query)
+        candidate = found_docs[0].page_content.split("\n")[1]
+        return candidate.replace("output:", "")
+    except IndexError:
+        return None
+
 
 answers_prompt = ChatPromptTemplate.from_template(
     """
@@ -89,7 +120,7 @@ answers_prompt = ChatPromptTemplate.from_template(
 def get_answers(inputs):
     docs = inputs["docs"]
     question = inputs["question"]
-    answers_chain = answers_prompt | llm
+    answers_chain = answers_prompt | answers_llm
     # answers = []
     # for doc in docs:
     #     result = answers_chain.invoke(
@@ -135,7 +166,7 @@ choose_prompt = ChatPromptTemplate.from_messages(
 def choose_answer(inputs):
     answers = inputs["answers"]
     question = inputs["question"]
-    choose_chain = choose_prompt | llm
+    choose_chain = choose_prompt | choose_llm
     condensed = "\n\n".join(
         f"Answer:{answer['answer']}\nSource:{answer['source']}\n" for answer in answers
     )
@@ -208,6 +239,10 @@ def paint_history():
         send_message(message["message"], message["role"], save=False)
 
 
+def session_reset():
+    st.session_state["messages"] = []
+
+
 st.set_page_config(page_title="SiteGPT", page_icon="❓")
 
 st.title("Site GPT")
@@ -239,41 +274,55 @@ with st.sidebar:
             url_type = "html"
 
 if url_type == "sitemap":
+    session_reset()
     retriever = load_sitemap(url)
-    message = st.chat_input("Ask anything about your file...")
-    if message:
-        chain = (
-            {
-                "docs": retriever,
-                "question": RunnablePassthrough(),
-            }
-            | RunnableLambda(get_answers)
-            | RunnableLambda(choose_answer)
-        )
-
-        result = chain.invoke(message)
-        content = result.content.replace("$", "\$")
-
-elif url_type == "html":
-    retriever = load_website(url)
-    paint_history()
     send_message("I'm ready! Ask away!", "ai", save=False)
-    message = st.chat_input("Ask anything about your file...")
+    paint_history()
+    message = st.chat_input("Ask anything about this page...")
     if message:
         send_message(message, "human")
-        chain = (
-            {
-                "docs": retriever,
-                "question": RunnablePassthrough(),
-            }
-            | RunnablePassthrough.assign(chat_history=load_memory)
-            | RunnableLambda(get_answers)
-            | RunnableLambda(choose_answer)
-        )
+        found = find_history(message)
+        if found:
+            send_message(found, "ai", save=False)
+        else:
+            chain = (
+                {
+                    "docs": retriever,
+                    "question": RunnablePassthrough(),
+                }
+                | RunnableLambda(get_answers)
+                | RunnableLambda(choose_answer)
+            )
 
-        with st.chat_message("ai"):
-            result = chain.invoke(message)
-            content = result.content
-            add_memory_message(message, content)
+            with st.chat_message("ai"):
+                result = chain.invoke(message)
+                content = result.content.replace("$", "\$")
+                add_memory_message(message, content)
 
-st.write(content)
+elif url_type == "html":
+    session_reset()
+    retriever = load_website(url)
+    send_message("I'm ready! Ask away!", "ai", save=False)
+    paint_history()
+    message = st.chat_input("Ask anything about this page...")
+    if message:
+        send_message(message, "human")
+        found = find_history(message)
+        if found:
+            send_message(found, "ai", save=False)
+        else:
+            chain = (
+                {
+                    "docs": retriever,
+                    "question": RunnablePassthrough(),
+                }
+                | RunnableLambda(get_answers)
+                | RunnableLambda(choose_answer)
+            )
+            with st.chat_message("ai"):
+                result = chain.invoke(message)
+                content = result.content
+                add_memory_message(message, content)
+
+else:
+    session_reset()
