@@ -1,13 +1,26 @@
 import streamlit as st
-import firebase_admin
 from firebase_admin import credentials, firestore
 from google.cloud.firestore_v1.base_query import FieldFilter
 
+
 if not firebase_admin._apps:
-    cred = credentials.Certificate("joker-base-firebase-adminsdk-0wo7n-dabec43869.json")
+    cred = credentials.Certificate(
+        "env/joker-base-firebase-adminsdk-0wo7n-dabec43869.json"
+    )
     firebase_admin.initialize_app(cred)
 
 db = firestore.client()
+
+# "event": "NBA",
+#         "homeTeam": "밀워벅스",
+#         "standardPoint": "",
+#         "awayTeam": " 워싱위저",
+#         "gameType": "일반",
+#         "winDistribute": "승1.20",
+#         "drawDistribute": "-",
+#         "loseDistribute": "패3.30",
+#         "finalScore": "123 : 113",
+#         "gameResult": "승"
 
 
 def ALL_years_reader():
@@ -15,7 +28,9 @@ def ALL_years_reader():
     for collection in ref:
         for doc in collection.collections():
             for result in doc.stream():
-                st.write(result.to_dict().get("event"))
+                st.write(
+                    f"종목: {result.to_dict().get('event')} 홈: {result.to_dict().get('homeTeam')} 원정: {result.to_dict().get('awayTeam')}"
+                )
 
 
 def selected_year_reader(year):
@@ -26,6 +41,7 @@ def selected_year_reader(year):
             # .where(filter=FieldFilter("event", "==", "EPL"))
             # .where(filter=FieldFilter("gameResult", "==", "홈패"))
         ):
+            # return doc.to_dict()
             st.write(doc.to_dict().get("event"))
 
 
