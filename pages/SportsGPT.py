@@ -1,4 +1,5 @@
 import streamlit as st
+import firebase_admin
 from firebase_admin import credentials, firestore
 from google.cloud.firestore_v1.base_query import FieldFilter
 
