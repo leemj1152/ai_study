@@ -1,5 +1,10 @@
 ﻿[
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 10:00",
+        "gameNum": "1",
         "event": "NBA",
         "homeTeam": "밀워벅스",
         "standardPoint": "",
@@ -12,6 +17,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 10:00",
+        "gameNum": "2",
         "event": "NBA",
         "homeTeam": "밀워벅스",
         "standardPoint": "H -7.5",
@@ -24,6 +34,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 10:00",
+        "gameNum": "3",
         "event": "NBA",
         "homeTeam": "밀워벅스",
         "standardPoint": "U/O 229.5",
@@ -36,6 +51,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 10:00",
+        "gameNum": "4",
         "event": "NBA",
         "homeTeam": "오클썬더",
         "standardPoint": "",
@@ -48,6 +68,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 10:00",
+        "gameNum": "5",
         "event": "NBA",
         "homeTeam": "오클썬더",
         "standardPoint": "H +8.5",
@@ -60,6 +85,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 10:00",
+        "gameNum": "5",
         "event": "NBA",
         "homeTeam": "오클썬더",
         "standardPoint": "H +10.5",
@@ -72,6 +102,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 10:00",
+        "gameNum": "6",
         "event": "NBA",
         "homeTeam": "오클썬더",
         "standardPoint": "U/O 233.5",
@@ -84,6 +119,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 10:00",
+        "gameNum": "6",
         "event": "NBA",
         "homeTeam": "오클썬더",
         "standardPoint": "U/O 228.5",
@@ -96,6 +136,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 11:00",
+        "gameNum": "7",
         "event": "NBA",
         "homeTeam": "유타재즈",
         "standardPoint": "",
@@ -108,6 +153,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 11:00",
+        "gameNum": "8",
         "event": "NBA",
         "homeTeam": "유타재즈",
         "standardPoint": "H -3.5",
@@ -120,6 +170,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 11:00",
+        "gameNum": "9",
         "event": "NBA",
         "homeTeam": "유타재즈",
         "standardPoint": "U/O 242.5",
@@ -132,6 +187,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "10",
         "event": "KBL",
         "homeTeam": "서울SK  ",
         "standardPoint": "",
@@ -144,6 +204,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "11",
         "event": "KBL",
         "homeTeam": "서울SK  ",
         "standardPoint": "H -6.5",
@@ -156,6 +221,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "11",
         "event": "KBL",
         "homeTeam": "서울SK  ",
         "standardPoint": "H -7.5",
@@ -168,6 +238,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "12",
         "event": "KBL",
         "homeTeam": "서울SK  ",
         "standardPoint": "U/O 166.5",
@@ -180,6 +255,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "13",
         "event": "KOVO남",
         "homeTeam": "대한항공",
         "standardPoint": "",
@@ -192,6 +272,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "14",
         "event": "KOVO남",
         "homeTeam": "대한항공",
         "standardPoint": "H -1.5",
@@ -204,6 +289,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "15",
         "event": "KOVO남",
         "homeTeam": "대한항공",
         "standardPoint": "U/O 184.5",
@@ -216,6 +306,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "16",
         "event": "KOVO여",
         "homeTeam": "현대건설",
         "standardPoint": "",
@@ -228,6 +323,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "17",
         "event": "KOVO여",
         "homeTeam": "현대건설",
         "standardPoint": "H -1.5",
@@ -240,6 +340,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 19:00",
+        "gameNum": "18",
         "event": "KOVO여",
         "homeTeam": "현대건설",
         "standardPoint": "U/O 177.5",
@@ -252,6 +357,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 20:30",
+        "gameNum": "19",
         "event": "세리에A",
         "homeTeam": "살레르니",
         "standardPoint": "",
@@ -264,6 +374,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 20:30",
+        "gameNum": "20",
         "event": "세리에A",
         "homeTeam": "살레르니",
         "standardPoint": "H +1.0",
@@ -276,6 +391,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 20:30",
+        "gameNum": "21",
         "event": "세리에A",
         "homeTeam": "살레르니",
         "standardPoint": "H +2.5",
@@ -288,6 +408,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 20:30",
+        "gameNum": "22",
         "event": "세리에A",
         "homeTeam": "살레르니",
         "standardPoint": "U/O 2.5",
@@ -300,6 +425,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 20:30",
+        "gameNum": "23",
         "event": "세리에A",
         "homeTeam": "사수올로",
         "standardPoint": "",
@@ -312,6 +442,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 20:30",
+        "gameNum": "24",
         "event": "세리에A",
         "homeTeam": "사수올로",
         "standardPoint": "H -1.0",
@@ -324,6 +459,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.04(수)",
+        "gameDate": "23.01.04 (수) 20:30",
+        "gameNum": "25",
         "event": "세리에A",
         "homeTeam": "사수올로",
         "standardPoint": "U/O 2.5",
@@ -336,6 +476,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.04 (수) 22:30",
+        "gameNum": "26",
         "event": "세리에A",
         "homeTeam": "스페치아",
         "standardPoint": "",
@@ -348,6 +493,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.04 (수) 22:30",
+        "gameNum": "27",
         "event": "세리에A",
         "homeTeam": "스페치아",
         "standardPoint": "H +1.0",
@@ -360,6 +510,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.04 (수) 22:30",
+        "gameNum": "28",
         "event": "세리에A",
         "homeTeam": "스페치아",
         "standardPoint": "U/O 2.5",
@@ -372,6 +527,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.04 (수) 22:30",
+        "gameNum": "29",
         "event": "세리에A",
         "homeTeam": "토리노  ",
         "standardPoint": "",
@@ -384,6 +544,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.04 (수) 22:30",
+        "gameNum": "30",
         "event": "세리에A",
         "homeTeam": "토리노  ",
         "standardPoint": "H -1.0",
@@ -396,6 +561,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.04 (수) 22:30",
+        "gameNum": "31",
         "event": "세리에A",
         "homeTeam": "토리노  ",
         "standardPoint": "U/O 2.5",
@@ -408,6 +578,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 00:30",
+        "gameNum": "32",
         "event": "세리에A",
         "homeTeam": "US레체  ",
         "standardPoint": "",
@@ -420,6 +595,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 00:30",
+        "gameNum": "33",
         "event": "세리에A",
         "homeTeam": "US레체  ",
         "standardPoint": "H +1.0",
@@ -432,6 +612,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 00:30",
+        "gameNum": "34",
         "event": "세리에A",
         "homeTeam": "US레체  ",
         "standardPoint": "U/O 2.5",
@@ -444,6 +629,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 00:30",
+        "gameNum": "35",
         "event": "세리에A",
         "homeTeam": "AS로마  ",
         "standardPoint": "",
@@ -456,6 +646,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 00:30",
+        "gameNum": "36",
         "event": "세리에A",
         "homeTeam": "AS로마  ",
         "standardPoint": "H -1.0",
@@ -468,6 +663,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 00:30",
+        "gameNum": "37",
         "event": "세리에A",
         "homeTeam": "AS로마  ",
         "standardPoint": "U/O 2.5",
@@ -480,6 +680,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 02:30",
+        "gameNum": "38",
         "event": "세리에A",
         "homeTeam": "크레모네",
         "standardPoint": "",
@@ -492,6 +697,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 02:30",
+        "gameNum": "39",
         "event": "세리에A",
         "homeTeam": "크레모네",
         "standardPoint": "H +1.0",
@@ -504,6 +714,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 02:30",
+        "gameNum": "40",
         "event": "세리에A",
         "homeTeam": "크레모네",
         "standardPoint": "U/O 2.5",
@@ -516,6 +731,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 02:30",
+        "gameNum": "41",
         "event": "세리에A",
         "homeTeam": "피오렌티",
         "standardPoint": "",
@@ -528,6 +748,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 02:30",
+        "gameNum": "42",
         "event": "세리에A",
         "homeTeam": "피오렌티",
         "standardPoint": "H -1.0",
@@ -540,6 +765,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 02:30",
+        "gameNum": "43",
         "event": "세리에A",
         "homeTeam": "피오렌티",
         "standardPoint": "U/O 2.5",
@@ -552,6 +782,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:30",
+        "gameNum": "44",
         "event": "EPL",
         "homeTeam": "사우샘프",
         "standardPoint": "",
@@ -564,6 +799,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:30",
+        "gameNum": "45",
         "event": "EPL",
         "homeTeam": "사우샘프",
         "standardPoint": "H -1.0",
@@ -576,6 +816,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:30",
+        "gameNum": "46",
         "event": "EPL",
         "homeTeam": "사우샘프",
         "standardPoint": "U/O 2.5",
@@ -588,6 +833,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "47",
         "event": "EPL",
         "homeTeam": "리즈    ",
         "standardPoint": "",
@@ -600,6 +850,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "48",
         "event": "EPL",
         "homeTeam": "리즈    ",
         "standardPoint": "H -1.0",
@@ -612,6 +867,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "49",
         "event": "EPL",
         "homeTeam": "리즈    ",
         "standardPoint": "U/O 2.5",
@@ -624,6 +884,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "50",
         "event": "세리에A",
         "homeTeam": "인테르  ",
         "standardPoint": "",
@@ -636,6 +901,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "51",
         "event": "세리에A",
         "homeTeam": "인테르  ",
         "standardPoint": "H -1.0",
@@ -648,6 +918,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "52",
         "event": "세리에A",
         "homeTeam": "인테르  ",
         "standardPoint": "U/O 2.5",
@@ -660,6 +935,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "53",
         "event": "세리에A",
         "homeTeam": "우디네세",
         "standardPoint": "",
@@ -672,6 +952,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "54",
         "event": "세리에A",
         "homeTeam": "우디네세",
         "standardPoint": "H -1.0",
@@ -684,6 +969,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 04:45",
+        "gameNum": "55",
         "event": "세리에A",
         "homeTeam": "우디네세",
         "standardPoint": "U/O 2.5",
@@ -696,6 +986,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 05:00",
+        "gameNum": "56",
         "event": "EPL",
         "homeTeam": "애스턴  ",
         "standardPoint": "",
@@ -708,6 +1003,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 05:00",
+        "gameNum": "57",
         "event": "EPL",
         "homeTeam": "애스턴  ",
         "standardPoint": "H -1.0",
@@ -720,6 +1020,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 05:00",
+        "gameNum": "58",
         "event": "EPL",
         "homeTeam": "애스턴  ",
         "standardPoint": "U/O 2.5",
@@ -732,6 +1037,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 05:00",
+        "gameNum": "59",
         "event": "EPL",
         "homeTeam": "크리스털",
         "standardPoint": "",
@@ -744,6 +1054,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 05:00",
+        "gameNum": "60",
         "event": "EPL",
         "homeTeam": "크리스털",
         "standardPoint": "H +1.0",
@@ -756,6 +1071,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 05:00",
+        "gameNum": "61",
         "event": "EPL",
         "homeTeam": "크리스털",
         "standardPoint": "U/O 2.5",
@@ -768,6 +1088,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "62",
         "event": "NBA",
         "homeTeam": "샬럿호네",
         "standardPoint": "",
@@ -780,6 +1105,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "63",
         "event": "NBA",
         "homeTeam": "샬럿호네",
         "standardPoint": "H +6.5",
@@ -792,6 +1122,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "63",
         "event": "NBA",
         "homeTeam": "샬럿호네",
         "standardPoint": "H +7.5",
@@ -804,6 +1139,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "64",
         "event": "NBA",
         "homeTeam": "샬럿호네",
         "standardPoint": "U/O 230.5",
@@ -816,6 +1156,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "64",
         "event": "NBA",
         "homeTeam": "샬럿호네",
         "standardPoint": "U/O 235.5",
@@ -828,6 +1173,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "65",
         "event": "NBA",
         "homeTeam": "클리캐벌",
         "standardPoint": "",
@@ -840,6 +1190,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "66",
         "event": "NBA",
         "homeTeam": "클리캐벌",
         "standardPoint": "H -4.5",
@@ -852,6 +1207,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "67",
         "event": "NBA",
         "homeTeam": "클리캐벌",
         "standardPoint": "U/O 223.5",
@@ -864,6 +1224,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "67",
         "event": "NBA",
         "homeTeam": "클리캐벌",
         "standardPoint": "U/O 220.5",
@@ -876,6 +1241,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "67",
         "event": "NBA",
         "homeTeam": "클리캐벌",
         "standardPoint": "U/O 216.5",
@@ -888,6 +1258,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "68",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "",
@@ -900,6 +1275,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "69",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "H -2.5",
@@ -912,6 +1292,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "69",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "H +1.5",
@@ -924,6 +1309,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "70",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "U/O 228.5",
@@ -936,6 +1326,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "70",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "U/O 226.5",
@@ -948,6 +1343,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "70",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "U/O 229.5",
@@ -960,6 +1360,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "71",
         "event": "NBA",
         "homeTeam": "필라76s ",
         "standardPoint": "",
@@ -972,6 +1377,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "72",
         "event": "NBA",
         "homeTeam": "필라76s ",
         "standardPoint": "H -7.5",
@@ -984,6 +1394,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "72",
         "event": "NBA",
         "homeTeam": "필라76s ",
         "standardPoint": "H -5.5",
@@ -996,6 +1411,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:00",
+        "gameNum": "73",
         "event": "NBA",
         "homeTeam": "필라76s ",
         "standardPoint": "U/O 232.5",
@@ -1008,6 +1428,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "74",
         "event": "NBA",
         "homeTeam": "뉴욕닉스",
         "standardPoint": "",
@@ -1020,6 +1445,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "75",
         "event": "NBA",
         "homeTeam": "뉴욕닉스",
         "standardPoint": "H -9.5",
@@ -1032,6 +1462,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "76",
         "event": "NBA",
         "homeTeam": "뉴욕닉스",
         "standardPoint": "U/O 230.5",
@@ -1044,6 +1479,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "76",
         "event": "NBA",
         "homeTeam": "뉴욕닉스",
         "standardPoint": "U/O 227.5",
@@ -1056,6 +1496,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "76",
         "event": "NBA",
         "homeTeam": "뉴욕닉스",
         "standardPoint": "U/O 225.5",
@@ -1068,6 +1513,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "77",
         "event": "NBA",
         "homeTeam": "토론랩터",
         "standardPoint": "",
@@ -1080,6 +1530,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "78",
         "event": "NBA",
         "homeTeam": "토론랩터",
         "standardPoint": "H -1.5",
@@ -1092,6 +1547,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "78",
         "event": "NBA",
         "homeTeam": "토론랩터",
         "standardPoint": "H -5.5",
@@ -1104,6 +1564,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "79",
         "event": "NBA",
         "homeTeam": "토론랩터",
         "standardPoint": "U/O 224.5",
@@ -1116,6 +1581,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "79",
         "event": "NBA",
         "homeTeam": "토론랩터",
         "standardPoint": "U/O 230.5",
@@ -1128,6 +1598,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 09:30",
+        "gameNum": "79",
         "event": "NBA",
         "homeTeam": "토론랩터",
         "standardPoint": "U/O 225.5",
@@ -1140,6 +1615,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "80",
         "event": "NBA",
         "homeTeam": "시카불스",
         "standardPoint": "",
@@ -1152,6 +1632,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "81",
         "event": "NBA",
         "homeTeam": "시카불스",
         "standardPoint": "H +4.5",
@@ -1164,6 +1649,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "81",
         "event": "NBA",
         "homeTeam": "시카불스",
         "standardPoint": "H +5.5",
@@ -1176,6 +1666,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "82",
         "event": "NBA",
         "homeTeam": "시카불스",
         "standardPoint": "U/O 234.5",
@@ -1188,6 +1683,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "83",
         "event": "NBA",
         "homeTeam": "미네울브",
         "standardPoint": "",
@@ -1200,6 +1700,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "84",
         "event": "NBA",
         "homeTeam": "미네울브",
         "standardPoint": "H -1.5",
@@ -1212,6 +1717,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "84",
         "event": "NBA",
         "homeTeam": "미네울브",
         "standardPoint": "H +1.5",
@@ -1224,6 +1734,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "85",
         "event": "NBA",
         "homeTeam": "미네울브",
         "standardPoint": "U/O 230.5",
@@ -1236,6 +1751,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "85",
         "event": "NBA",
         "homeTeam": "미네울브",
         "standardPoint": "U/O 234.5",
@@ -1248,6 +1768,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "86",
         "event": "NBA",
         "homeTeam": "뉴올펠리",
         "standardPoint": "",
@@ -1260,6 +1785,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "87",
         "event": "NBA",
         "homeTeam": "뉴올펠리",
         "standardPoint": "H -7.5",
@@ -1272,6 +1802,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 10:00",
+        "gameNum": "88",
         "event": "NBA",
         "homeTeam": "뉴올펠리",
         "standardPoint": "U/O 228.5",
@@ -1284,6 +1819,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "89",
         "event": "NBA",
         "homeTeam": "골든워리",
         "standardPoint": "",
@@ -1296,6 +1836,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "90",
         "event": "NBA",
         "homeTeam": "골든워리",
         "standardPoint": "H -7.5",
@@ -1308,6 +1853,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "91",
         "event": "NBA",
         "homeTeam": "골든워리",
         "standardPoint": "U/O 233.5",
@@ -1320,6 +1870,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "92",
         "event": "NBA",
         "homeTeam": "LA레이커",
         "standardPoint": "",
@@ -1332,6 +1887,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "93",
         "event": "NBA",
         "homeTeam": "LA레이커",
         "standardPoint": "H +4.5",
@@ -1344,6 +1904,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "93",
         "event": "NBA",
         "homeTeam": "LA레이커",
         "standardPoint": "H +7.5",
@@ -1356,6 +1921,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "94",
         "event": "NBA",
         "homeTeam": "LA레이커",
         "standardPoint": "U/O 227.5",
@@ -1368,6 +1938,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "94",
         "event": "NBA",
         "homeTeam": "LA레이커",
         "standardPoint": "U/O 229.5",
@@ -1380,6 +1955,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "94",
         "event": "NBA",
         "homeTeam": "LA레이커",
         "standardPoint": "U/O 225.5",
@@ -1392,6 +1972,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "95",
         "event": "NBA",
         "homeTeam": "새크킹스",
         "standardPoint": "",
@@ -1404,6 +1989,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "96",
         "event": "NBA",
         "homeTeam": "새크킹스",
         "standardPoint": "H -1.5",
@@ -1416,6 +2006,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 12:00",
+        "gameNum": "97",
         "event": "NBA",
         "homeTeam": "새크킹스",
         "standardPoint": "U/O 243.5",
@@ -1428,6 +2023,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "98",
         "event": "KBL",
         "homeTeam": "고양캐롯",
         "standardPoint": "",
@@ -1440,6 +2040,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "99",
         "event": "KBL",
         "homeTeam": "고양캐롯",
         "standardPoint": "H +2.5",
@@ -1452,6 +2057,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "99",
         "event": "KBL",
         "homeTeam": "고양캐롯",
         "standardPoint": "H +3.5",
@@ -1464,6 +2074,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "100",
         "event": "KBL",
         "homeTeam": "고양캐롯",
         "standardPoint": "U/O 163.5",
@@ -1476,6 +2091,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "101",
         "event": "KBL",
         "homeTeam": "서울삼성",
         "standardPoint": "",
@@ -1488,6 +2108,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "102",
         "event": "KBL",
         "homeTeam": "서울삼성",
         "standardPoint": "H +4.5",
@@ -1500,6 +2125,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "102",
         "event": "KBL",
         "homeTeam": "서울삼성",
         "standardPoint": "H +5.5",
@@ -1512,6 +2142,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "103",
         "event": "KBL",
         "homeTeam": "서울삼성",
         "standardPoint": "U/O 154.5",
@@ -1524,6 +2159,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "103",
         "event": "KBL",
         "homeTeam": "서울삼성",
         "standardPoint": "U/O 155.5",
@@ -1536,6 +2176,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "104",
         "event": "KOVO남",
         "homeTeam": "삼성화재",
         "standardPoint": "",
@@ -1548,6 +2193,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "105",
         "event": "KOVO남",
         "homeTeam": "삼성화재",
         "standardPoint": "H +1.5",
@@ -1560,6 +2210,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "106",
         "event": "KOVO남",
         "homeTeam": "삼성화재",
         "standardPoint": "U/O 184.5",
@@ -1572,6 +2227,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "107",
         "event": "KOVO여",
         "homeTeam": "흥국생명",
         "standardPoint": "",
@@ -1584,6 +2244,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "108",
         "event": "KOVO여",
         "homeTeam": "흥국생명",
         "standardPoint": "H -1.5",
@@ -1596,6 +2261,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.05(목)",
+        "gameDate": "23.01.05 (목) 19:00",
+        "gameNum": "109",
         "event": "KOVO여",
         "homeTeam": "흥국생명",
         "standardPoint": "U/O 182.5",
@@ -1608,6 +2278,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 05:00",
+        "gameNum": "110",
         "event": "EPL",
         "homeTeam": "첼시    ",
         "standardPoint": "",
@@ -1620,6 +2295,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 05:00",
+        "gameNum": "111",
         "event": "EPL",
         "homeTeam": "첼시    ",
         "standardPoint": "H +1.0",
@@ -1632,6 +2312,11 @@
         "gameResult": "무"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 05:00",
+        "gameNum": "112",
         "event": "EPL",
         "homeTeam": "첼시    ",
         "standardPoint": "U/O 2.5",
@@ -1644,6 +2329,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:00",
+        "gameNum": "113",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "",
@@ -1656,6 +2346,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:00",
+        "gameNum": "114",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "H +6.5",
@@ -1668,6 +2363,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:00",
+        "gameNum": "115",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "U/O 226.5",
@@ -1680,6 +2380,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:00",
+        "gameNum": "115",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "U/O 227.5",
@@ -1692,6 +2397,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:00",
+        "gameNum": "115",
         "event": "NBA",
         "homeTeam": "올랜매직",
         "standardPoint": "U/O 229.5",
@@ -1704,6 +2414,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:30",
+        "gameNum": "116",
         "event": "NBA",
         "homeTeam": "댈러매버",
         "standardPoint": "",
@@ -1716,6 +2431,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:30",
+        "gameNum": "117",
         "event": "NBA",
         "homeTeam": "댈러매버",
         "standardPoint": "H +2.5",
@@ -1728,6 +2448,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:30",
+        "gameNum": "118",
         "event": "NBA",
         "homeTeam": "댈러매버",
         "standardPoint": "U/O 229.5",
@@ -1740,6 +2465,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 09:30",
+        "gameNum": "118",
         "event": "NBA",
         "homeTeam": "댈러매버",
         "standardPoint": "U/O 232.5",
@@ -1752,6 +2482,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 10:00",
+        "gameNum": "119",
         "event": "NBA",
         "homeTeam": "휴스로케",
         "standardPoint": "",
@@ -1764,6 +2499,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 10:00",
+        "gameNum": "120",
         "event": "NBA",
         "homeTeam": "휴스로케",
         "standardPoint": "H +5.5",
@@ -1776,6 +2516,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 10:00",
+        "gameNum": "120",
         "event": "NBA",
         "homeTeam": "휴스로케",
         "standardPoint": "H +6.5",
@@ -1788,6 +2533,11 @@
         "gameResult": "패"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 10:00",
+        "gameNum": "121",
         "event": "NBA",
         "homeTeam": "휴스로케",
         "standardPoint": "U/O 232.5",
@@ -1800,6 +2550,11 @@
         "gameResult": "O"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 12:00",
+        "gameNum": "122",
         "event": "NBA",
         "homeTeam": "덴버너게",
         "standardPoint": "",
@@ -1812,6 +2567,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 12:00",
+        "gameNum": "123",
         "event": "NBA",
         "homeTeam": "덴버너게",
         "standardPoint": "H -4.5",
@@ -1824,6 +2584,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 12:00",
+        "gameNum": "123",
         "event": "NBA",
         "homeTeam": "덴버너게",
         "standardPoint": "H -5.5",
@@ -1836,6 +2601,11 @@
         "gameResult": "승"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 12:00",
+        "gameNum": "124",
         "event": "NBA",
         "homeTeam": "덴버너게",
         "standardPoint": "U/O 225.5",
@@ -1848,6 +2618,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 12:00",
+        "gameNum": "124",
         "event": "NBA",
         "homeTeam": "덴버너게",
         "standardPoint": "U/O 226.5",
@@ -1860,6 +2635,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 12:00",
+        "gameNum": "124",
         "event": "NBA",
         "homeTeam": "덴버너게",
         "standardPoint": "U/O 229.5",
@@ -1872,6 +2652,11 @@
         "gameResult": "U"
     },
     {
+        "year": "23",
+        "episode": "0003",
+        "resultDate": "23.01.06(금)",
+        "gameDate": "23.01.06 (금) 12:00",
+        "gameNum": "124",
         "event": "NBA",
         "homeTeam": "덴버너게",
         "standardPoint": "U/O 230.5",
